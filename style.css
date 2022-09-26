@@ -1,0 +1,92 @@
+html {
+    background-color:teal;
+}
+
+section {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 10%;
+}
+
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header button {
+    width: 10%;
+}
+
+.recent__post h2 {
+    color:gold;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: red;
+}
+
+section{
+
+}
+
+.recent__post {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.all__post {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tyoes__post {
+
+}
+
+.type__post {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.art img, .cook img, .travel img, .news img, .sport img {
+    width: 100%;
+  }
+
+footer {
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: #5adbb5;
+    padding: 10px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
